@@ -52,8 +52,9 @@ body {
     background-color: #BC8DA0;
     margin: auto;
     width: 206px;
-    height: 50px;
+    height: 55px;
     text-align: right;
+    font-size: 1.5em;
     word-wrap: break-word;
 }
 
