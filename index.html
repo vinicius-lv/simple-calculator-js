@@ -16,31 +16,31 @@
             </p>
         </section>
         <section id="calc-section">
-            <p id="result"></p>
+            <p id="calc-result"></p>
             <table>
                 <tr>
-                    <td><button onclick="deleteAllNumbers()">AC</button></td>
-                    <td><button>&#9003;</button></td>
-                    <td><button onclick="insertOperator('/')">&divide;</button></td>
-                    <td><button onclick="insertOperator('*')">&times;</button></td>
+                    <td><button onclick="deleteAllNumbers()" class="calc-clear-button">AC</button></td>
+                    <td><button onclick="backspace()" class="calc-clear-button">&#9003;</button></td>
+                    <td><button onclick="insertOperator('/')" class="calc-operator-button">&divide;</button></td>
+                    <td><button onclick="insertOperator('*')" class="calc-operator-button">&times;</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="insertNum(7)">7</button></td>
                     <td><button onclick="insertNum(8)">8</button></td>
                     <td><button onclick="insertNum(9)">9</button></td>
-                    <td><button onclick="insertOperator('-')">&minus;</button></td>
+                    <td><button onclick="insertOperator('-')" class="calc-operator-button">&minus;</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="insertNum(4)">4</button></td>
                     <td><button onclick="insertNum(5)">5</button></td>
                     <td><button onclick="insertNum(6)">6</button></td>
-                    <td><button onclick="insertOperator('+')">+</button></td>
+                    <td><button onclick="insertOperator('+')" class="calc-operator-button">+</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="insertNum(1)">1</button></td>
                     <td><button onclick="insertNum(2)">2</button></td>
                     <td><button onclick="insertNum(3)">3</button></td>
-                    <td rowspan="2"><button onclick="confirmResult()" style="height: 102px;">=</button></td>
+                    <td rowspan="2"><button onclick="confirmOperation()" style="height: 102px;" class="calc-confirm-button">=</button></td>
                 </tr>
                 <tr>
                     <td colspan="2"><button onclick="insertNum(0)" style="width: 102px;">0</button></td>

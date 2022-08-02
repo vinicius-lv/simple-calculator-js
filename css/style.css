@@ -48,7 +48,7 @@ body {
     height: 315px;
 }
 
-#result {
+#calc-result {
     background-color: #BC8DA0;
     margin: auto;
     width: 206px;
@@ -71,4 +71,20 @@ table button {
 table button:hover {
     background-color: #BC8DA0;
     color: #000;
+}
+
+.calc-clear-button {
+    background-color: #792b49;
+}
+
+.calc-operator-button {
+    background-color: #a33c64;
+}
+
+.calc-confirm-button {
+    background-color: #9b194b;
+}
+
+.calc-confirm-button:hover {
+    background-color: #BC8DA0;
 }
